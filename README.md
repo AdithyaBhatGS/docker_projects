@@ -19,12 +19,33 @@ A basic Flask application containerized and run using Docker Compose.
    docker-compose up -d
    ```
 3. Open the browser
- Go to http://<public-ip>:8000
+   - Go to http://<public-ip>:8000
 
 4. To Stop the app
    ```bash
    docker-compose down
    
-## 🐳 Project 2: 
-   
+## 🐳 Project 2: Static web app deployed on nginx
+
+**Description:**
+A simple project demonstrating the deployment of web app in nginx using docker-compose
+
+### 🔧 Steps to Run:
+1. Navigate to the project folder:
+   ```bash
+   cd static-site
+
+2. Start the app
+   ```bash
+   docker-compose up -d
+
+3. Open the browser
+   - Go to http://<public-ip>:8000
+
+4. To Stop the app
+   ```bash
+   docker-compose down
+  
+
+
 
