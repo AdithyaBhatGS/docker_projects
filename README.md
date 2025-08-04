@@ -13,17 +13,18 @@ A basic Flask application containerized and run using Docker Compose.
 1. Navigate to the project folder:
    ```bash
    cd flask-app
-  ```
+  
 2. Start the app
    ```bash
    docker-compose up -d
    ```
 3. Open the browser
-  a. Go to http://<public-ip>:8000
+ Go to http://<public-ip>:8000
+
 4. To Stop the app
    ```bash
    docker-compose down
-   ```
+   
 ## 🐳 Project 2: 
    
 
