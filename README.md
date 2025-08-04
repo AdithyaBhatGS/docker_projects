@@ -19,7 +19,7 @@ A basic Flask application containerized and run using Docker Compose.
    docker-compose up -d
    ```
 3. Open the browser
-   - Go to http://<public-ip>:8000
+   - Go to http://public-ip:8000
 
 4. To Stop the app
    ```bash
@@ -40,12 +40,10 @@ A simple project demonstrating the deployment of web app in nginx using docker-c
    docker-compose up -d
 
 3. Open the browser
-   - Go to http://<public-ip>:8000
+   - Go to http://public-ip:8000
 
 4. To Stop the app
    ```bash
    docker-compose down
-  
-
 
 
